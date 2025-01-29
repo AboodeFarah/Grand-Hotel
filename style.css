@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/women.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+
+}
+
+img{
+    width: 150px;
+}
+
+nav .nav_link ul li{
+    list-style: none;
+    display: inline;
+    padding: 8px 12px;
+    position: relative;
+}
+
+nav .nav_link ul li a{
+    color: #ffff;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+nav .nav_link ul li a:hover{
+    color: gold;
+    transition: 0.5;
+}
+
+.text{
+    color: #ffff;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+h1{
+    font-size: 40px;
+
+}
+
+p{
+    font-size: 10px;
+}
+
+
+
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.Service-col{
+    flex-basis: 32%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Service-col img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.facilities2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    
+
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.Service-col2{
+    flex-basis: 32%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Service-col2 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/*-----------------footer--------------*/
+
+.bottom_nav{
+    background-color: #3e3e3e;
+    margin-top: 80px;
+    padding: 60px 0;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    width: 995px;
+    margin: auto;
+}
+
+footer .container ul li{
+    list-style: none;
+    padding-bottom: 12px;
+}
+
+footer .container ul li a{
+    color: #ffff;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+footer .container ul li a:hover{
+    color: gold;
+}
+
+.copyright{
+    background-color: #2b2b2b;
+    height: 40px;
+    color: #ffff;
+    font-size: 18px ;
+    text-align: center;
+    padding: 10px;
+}
