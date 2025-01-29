@@ -47,7 +47,7 @@ nav .nav_link ul li a:hover{
 
 .text{
     color: #ffff;
-    width: 90%;
+    width: 70%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -57,12 +57,12 @@ nav .nav_link ul li a:hover{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 35px;
 
 }
 
 p{
-    font-size: 10px;
+    font-size: 18px;
 }
 
 
